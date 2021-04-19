@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Except this file
+!.gitignore
+
+# And the buildroot external config script
+!configure

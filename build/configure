@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Get directory of this script
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+# Check if Makefile has already been generated
+# Do not procede if Makefile has been created
+if [ ! -f $DIR/Makefile ]
+then
+
+    # Clean output directory
+    find $DIR -type f ! -name ".gitignore" ! -name "configure" -delete
+
+    # Setup buidroot external tree
+    make BR2_EXTERNAL=../rpi-zero-min-tree/ O=$DIR -C ../buildroot/ 2> /dev/null > /dev/null
+
+fi
+
+exit 0
