@@ -2,7 +2,7 @@
 
 A Minimal Buildroot config for the Raspberry Pi Zero, inspired by [Minimal Raspberry Pi 3](https://github.com/romainreignier/minimal_raspberrypi_buildroot).
 
-**This project is currently a work in progress!** The current master branch may not be usable at the moment!
+**This project is currently a work in progress!** The current main branch may not be usable at the moment!
 
 ## Notes
 
