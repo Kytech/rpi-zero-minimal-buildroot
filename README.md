@@ -10,4 +10,4 @@ This repository uses git submodules to manage the buildroot version used by this
 
 ## Usage
 
-After cloning the repository (and initializing the buildroot submodule if cloning without `--recursive`), navigate to the `build` directory and run `./configure`. This sets up the buildroot external tree. From there, run any buildroot commands from the `build` directory to keep a clean external tree setup.
+After cloning the repository (and initializing the buildroot submodule if cloning without `--recursive`), navigate to the `build_workdir` directory and run `./configure`. This sets up the buildroot external tree. From there, run any buildroot commands from the `build_workdir` directory to keep a clean external tree setup.

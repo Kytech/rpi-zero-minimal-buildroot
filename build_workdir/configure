@@ -10,6 +10,7 @@ then
 
     # Clean output directory
     find $DIR -type f ! -name ".gitignore" ! -name "configure" -delete
+    find $DIR -empty -type d -delete
 
     # Setup buidroot external tree
     make BR2_EXTERNAL=../rpi-zero-min-tree/ O=$DIR -C ../buildroot/ 2> /dev/null > /dev/null
