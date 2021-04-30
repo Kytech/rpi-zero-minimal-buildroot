@@ -7,8 +7,8 @@ Some files in Buildroot and this project contain a different license
 statement. Those files are licensed under the license contained in the
 file itself or under the license contained in the same folder or
 closest parent folder of the file if no license is specified in the
-file itself. Packages are distributed under their own license
-which take precedence over this license.
+file itself. Software contained in packages are distributed under
+their own license and not the license of Buildroot or this project.
 
 Buildroot also bundles patch files, which are applied to the sources
 of the various packages. Those patches are not covered by the license
