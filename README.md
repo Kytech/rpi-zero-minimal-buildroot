@@ -2,7 +2,7 @@
 
 A Minimal Buildroot config for the Raspberry Pi Zero, inspired by [Minimal Raspberry Pi 3](https://github.com/romainreignier/minimal_raspberrypi_buildroot), but with most features usable out of the box. This build should serve as a good starting point for any headless pi zero embedded projects.
 
-Kernel boot time measures approximately 2 seconds when the `quiet` parameter is added to the pi kernel's `cmdline.txt` arguments. Without changing the `start.elf` bootloader to the cutdown version, the total boot time from initial power on is about 5-6 seconds. Overclocking the SD card, if you have a class 10 or UHS 1 card, should yeild a bit of a boost. Shaved off about 0.5-1 second on my board. Additional gains can come by trimming unused kernel features as well. An initramfs-only image and/or embedded device tree may also improve overall boot times.
+Kernel boot time measures approximately 2 seconds when the `quiet` parameter is added to the pi kernel's `cmdline.txt` arguments. Without changing the `start.elf` bootloader to the cutdown version, the total boot time from initial power on is about 5-6 seconds. Overclocking the SD card, if you have a class 10 or UHS 1 card, should yield a bit of a boost. Shaved off about 0.5-1 second on my board. Additional gains can come by trimming unused kernel features as well. An initramfs-only image and/or embedded device tree may also improve overall boot times.
 
 See below section for limitations.
 
